@@ -2,14 +2,17 @@
 
 using namespace std;
 
-int main () {
+int main()
+{
     int n;
+    cout << "Enter a positive Integer: ";
     cin >> n;
     cout << n;
 
-    while (n > 1) {
+    while (n > 1)
+    {
         if (n % 2 == 0)
-            n = n/2;
+            n = n / 2;
         else
             n = n * 3 + 1;
         cout << " " << n;
